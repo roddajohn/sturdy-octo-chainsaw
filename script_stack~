@@ -1,0 +1,121 @@
+#body
+push
+translate
+250 230 0
+yrotate
+45
+xrotate
+10
+box
+-50 90 25 100 180 50
+#head
+push
+translate
+0 120 0
+yrotate
+45
+xrotate
+-10
+sphere
+0 0 30
+#eye1
+push
+translate
+30 10 10
+zrotate
+90
+torus
+0 0 3 8
+pop
+#eye2
+push
+translate
+30 10 -10
+zrotate
+90
+torus
+0 0 3 8
+pop
+#right upper arm
+pop
+push
+translate
+-50 80 0
+xrotate
+-150
+box
+-15 0 10 30 70 20
+#right lower arm
+push
+translate
+0 -70 0
+xrotate
+-15
+box
+-15 0 10 30 70 20
+pop
+#left upper arm
+pop
+push
+translate
+50 90 0
+xrotate
+50
+box
+-15 0 10 30 70 20
+#left lower arm
+push
+translate
+0 -70 0
+xrotate
+-20
+box
+-15 0 10 30 70 20
+pop
+#right upper leg
+pop
+push
+translate
+-50 -90 0
+xrotate
+-45
+box
+-15 0 10 30 70 20
+#right lower leg
+push
+translate
+0 -70 0
+xrotate
+35
+box
+-15 0 10 30 70 20
+pop
+#left upper leg
+pop
+push
+translate
+50 -90 0
+xrotate
+20
+box
+-15 0 10 30 70 20
+#left lower leg
+push
+translate
+0 -70 0
+box
+-15 0 10 30 70 20
+pop
+pop
+#ball
+pop
+push
+translate
+250 500 0
+zrotate
+90
+sphere
+0 0 70
+save
+travolta.png
+quit
